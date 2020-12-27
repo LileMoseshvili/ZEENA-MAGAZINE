@@ -1,0 +1,486 @@
+/* base classes */
+.container {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+.d-flex {
+    display: flex;
+}
+/* header */
+body {
+    padding-top: 70px;
+}
+.logo {
+    width: 100px;
+    display: block;
+}
+.fixed-header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    z-index: 10;
+    border-bottom: solid 1px black;
+}
+
+
+
+.header-wrapper {
+    justify-content: center;
+    position: relative;
+}
+.navigation {
+    position: absolute;
+    right: 0;
+} 
+.nav-li {
+    margin-right: 25px;
+}
+.nav-a {
+    color: black;
+    font-size: 15px;
+    font-family: 'light';
+    text-transform: uppercase;
+} 
+/* subscribe */
+.subscribe {
+    max-width: 500px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9;
+    display: none;
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 40px;
+    border: solid 1px black;
+}
+
+.subscribe h2 {
+    font-family: 'bold';
+    letter-spacing: 2px;
+    font-size: 62px;
+    text-transform: uppercase;
+
+}
+.subscribe h3,
+.subscribe p {
+    font-family: 'light';
+    margin-bottom: 20px;
+}
+.okey {
+    max-width: 100px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-family: 'bold';
+    text-transform: uppercase;
+}
+.form-sect {
+    margin-top: 40px;
+    justify-content: center;    
+    background-color: w;
+}
+.sbs {
+    margin-top: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    max-width: 150px;
+    width: 100%;
+    color: white;
+    background-color: black;
+    border: none;
+    text-transform: uppercase;
+    
+
+}
+.gift {
+    font-family: 'bols';
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+.zeena {
+font-style: italic;
+font-size: 20px;
+}
+/* აქ გავჩერდი ჰოვერებზე უნდა გავაგრძელო  */
+.hover-box :hover {
+transform: scale (2);
+}
+
+.input-email {
+    max-width: 400px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.forms {
+    /* background-color: tomato; */
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+}
+.send {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+/* face-section */
+.face {
+    margin-top: 50px;
+}
+.right-news h1 {
+    font-family: 'bold';
+    text-transform: uppercase;
+    font-size: 62px;
+    margin-bottom: 30px;
+}
+.wrapper {
+    align-items: center;
+}
+.right-news {
+    margin-left: 150px;
+    max-width: 500px;
+    width: 100%;
+    padding-top: 50px;
+
+    /* padding-top: 60px; */
+}
+.right-news h3 {
+    text-transform: uppercase;
+    font-family: 'bold';
+    font-size: 19px;
+}
+.line {
+    max-width: 300px;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+.news-image {
+    max-width: 200px;
+    width: 100%;
+    margin-top: 15px;
+}
+.title {
+    max-width: 400px;
+    width: 100%;
+}
+.title h2 {
+    text-transform: uppercase;
+    font-family: 'light';
+    letter-spacing: 2px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.title p {
+    font-family: 'bold';
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.news-image img {
+    width: 100%;
+    display: block;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5 {
+    max-width: 700px;
+    width: 100%;
+}
+.girl {
+    width: 100%;
+}
+
+
+
+@keyframes moving-box  {
+        0% {left: -200px; opacity: 0%;}
+        100% {left: 10%; opacity: 100%;}
+      }
+
+
+/* body {
+    position: relative;
+} */
+
+.box1 {
+    animation: moving-box 5s  cubic-bezier(0,0,1,1);
+    position: relative;
+    left: 10%;
+    /* transform: translate(-50%, -50%); */
+
+}
+
+.box2 {
+    animation: moving-box 5s  cubic-bezier(0.25,0.1,0.25,1) ;
+    position: relative;
+    left: 10%;
+    /* transform: translate(-50%, -50%);  */
+
+
+}
+
+
+.box3 {
+    animation: moving-box 5s  cubic-bezier(0.42,0,1,1);
+    position: relative;
+    left: 10%;
+    /* transform: translate(-50%, -50%); */
+
+}
+
+
+
+.box4 {
+    animation: moving-box 5s  cubic-bezier(0,0,0.58,1);
+    position: relative;
+    left: 10%;
+    /* transform: translate(-50%, -50%); */
+}
+
+
+
+.box5 {
+    animation: moving-box 5s cubic-bezier(0.42,0,0.58,1);
+    position: relative;
+    left: 10%;
+    /* transform: translate(-50%, -50%); */
+}
+.more-news {
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'bold';
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+
+/* news-section */
+.news-sect {
+    margin-top: 40px;
+}
+.news-cont {
+    max-width: 1400px;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+.news-wrapper {
+    justify-content: space-between;
+}
+.news-box img {
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+
+.news-box {
+    max-width: 300px;
+    width: 100%;
+}
+.news-cont h3 {
+    text-align: center;
+    font-family: 'medium';
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-bottom: 35px;
+}
+.news-cont h4 {
+    font-family: 'light';
+    letter-spacing: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.news-cont h2 {
+    font-family: 'bold';
+    font-size: 20px;
+}
+.more {
+    justify-content: center;
+    max-width: 400px;
+    width: 100%;
+    border: solid 1px black;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: underline;
+    padding-top: 19px;
+    padding-bottom: 12px;
+    font-family: 'light';
+}
+.load {
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+/* fka-twigs */
+.sect-1 {
+    margin-top: 30px;
+}
+.left-image {
+    max-width: 850px;
+    width: 100%;
+    padding-bottom: 20px;
+    background-color: black;
+}
+.left-image img {
+    width: 100%;
+}
+.left-image h2 {
+    color: white;
+    text-align: center;
+    font-family: 'light';
+    margin-top: 17px;
+    font-size: 22px;
+}
+
+/* video */
+.video-section {
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    text-align: center;
+    margin-top: 40px;
+}
+.video-section p {
+    font-family: 'light';
+    color: white;
+    margin-top: 50px;
+}
+.fa-arrow-right {
+    color: white;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.video-section p:hover {
+    text-decoration: underline;
+    
+}
+.video-section h3 {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'medium';
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.video-section h2 {
+    color: white;
+    font-family: 'light';
+    font-size: 24px;
+    margin-top: 30px;
+    line-height: 10px;
+    /* max-width: 1000px; */
+}
+.video {
+    max-width: 960px;
+    width: 100%;
+    height: 515px;
+    outline: none;    
+}
+.video-box {
+justify-content: center;
+height: 100%;
+}
+
+/* kate moss section */
+
+.katemoss h2 {
+    margin-top: 20px;
+    font-family: 'light';
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    /* max-width: 600px;
+    width: 100%; */
+    line-height: 25px;
+    text-align: center;
+}
+.katemoss p {
+    color: rgb(61, 60, 60);
+    font-size: 12px;
+}
+.katemoss img {
+    width: 100%;
+}
+.katemoss {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/* footer*/
+.footer-section {
+    margin-top: 50px;
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.footer-wrapper {
+    flex-direction: column;
+    align-items: center;
+}
+.footer-wrapper h2 {
+    color: white;
+    font-family: 'bold';
+    text-transform: uppercase;
+    font-size: 80px;
+    margin-bottom: 50px;
+}
+.footer-wrapper p {
+    color: white;
+    font-family: 'light';
+    font-size: 19px;
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+    line-height: 25px;
+}
+.icon-ul a {
+    color: white;
+}
+.contact a {
+    color: white;
+    text-transform: uppercase;
+}
+.icon-li {
+    margin-left: 30px;
+}
+.fa-facebook-f,
+.fa-instagram,
+.fa-youtube,
+.fa-twitter {
+    font-size: 30px;
+}
+.contact-li {
+    margin-left: 30px;
+}
+.icons {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}

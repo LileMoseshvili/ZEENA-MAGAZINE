@@ -1,0 +1,390 @@
+@font-face {
+    font-family: 'Didot';
+    src: url('Didot-HTF-B42-Bold-Ital.eot');
+    src: url('Didot-HTF-B42-Bold-Ital.eot?#iefix') format('embedded-opentype'),
+        url('Didot-HTF-B42-Bold-Ital.woff2') format('woff2'),
+        url('Didot-HTF-B42-Bold-Ital.woff') format('woff'),
+        url('Didot-HTF-B42-Bold-Ital.ttf') format('truetype'),
+        url('Didot-HTF-B42-Bold-Ital.svg#Didot-HTF-B42-Bold-Ital') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Didot';
+    src: url('Didot-HTF-B24-Bold.eot');
+    src: url('Didot-HTF-B24-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Didot-HTF-B24-Bold.woff2') format('woff2'),
+        url('Didot-HTF-B24-Bold.woff') format('woff'),
+        url('Didot-HTF-B24-Bold.ttf') format('truetype'),
+        url('Didot-HTF-B24-Bold.svg#Didot-HTF-B24-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Didot';
+    src: url('Didot-HTF-B16-Bold-Ital.eot');
+    src: url('Didot-HTF-B16-Bold-Ital.eot?#iefix') format('embedded-opentype'),
+        url('Didot-HTF-B16-Bold-Ital.woff2') format('woff2'),
+        url('Didot-HTF-B16-Bold-Ital.woff') format('woff'),
+        url('Didot-HTF-B16-Bold-Ital.ttf') format('truetype'),
+        url('Didot-HTF-B16-Bold-Ital.svg#Didot-HTF-B16-Bold-Ital') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Didot';
+    src: url('Didot-HTF-B24-Bold-Ital.eot');
+    src: url('Didot-HTF-B24-Bold-Ital.eot?#iefix') format('embedded-opentype'),
+        url('Didot-HTF-B24-Bold-Ital.woff2') format('woff2'),
+        url('Didot-HTF-B24-Bold-Ital.woff') format('woff'),
+        url('Didot-HTF-B24-Bold-Ital.ttf') format('truetype'),
+        url('Didot-HTF-B24-Bold-Ital.svg#Didot-HTF-B24-Bold-Ital') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Didot';
+    src: url('Didot-HTF-B16-Bold.eot');
+    src: url('Didot-HTF-B16-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Didot-HTF-B16-Bold.woff2') format('woff2'),
+        url('Didot-HTF-B16-Bold.woff') format('woff'),
+        url('Didot-HTF-B16-Bold.ttf') format('truetype'),
+        url('Didot-HTF-B16-Bold.svg#Didot-HTF-B16-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Didot';
+    src: url('Didot-HTF-B11-Bold-Ital.eot');
+    src: url('Didot-HTF-B11-Bold-Ital.eot?#iefix') format('embedded-opentype'),
+        url('Didot-HTF-B11-Bold-Ital.woff2') format('woff2'),
+        url('Didot-HTF-B11-Bold-Ital.woff') format('woff'),
+        url('Didot-HTF-B11-Bold-Ital.ttf') format('truetype'),
+        url('Didot-HTF-B11-Bold-Ital.svg#Didot-HTF-B11-Bold-Ital') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Didot';
+    src: url('Didot-HTF-B06-Bold.eot');
+    src: url('Didot-HTF-B06-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Didot-HTF-B06-Bold.woff2') format('woff2'),
+        url('Didot-HTF-B06-Bold.woff') format('woff'),
+        url('Didot-HTF-B06-Bold.ttf') format('truetype'),
+        url('Didot-HTF-B06-Bold.svg#Didot-HTF-B06-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Didot';
+    src: url('Didot-HTF-B11-Bold.eot');
+    src: url('Didot-HTF-B11-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Didot-HTF-B11-Bold.woff2') format('woff2'),
+        url('Didot-HTF-B11-Bold.woff') format('woff'),
+        url('Didot-HTF-B11-Bold.ttf') format('truetype'),
+        url('Didot-HTF-B11-Bold.svg#Didot-HTF-B11-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Didot';
+    src: url('Didot-HTF-B06-Bold-Ital.eot');
+    src: url('Didot-HTF-B06-Bold-Ital.eot?#iefix') format('embedded-opentype'),
+        url('Didot-HTF-B06-Bold-Ital.woff2') format('woff2'),
+        url('Didot-HTF-B06-Bold-Ital.woff') format('woff'),
+        url('Didot-HTF-B06-Bold-Ital.ttf') format('truetype'),
+        url('Didot-HTF-B06-Bold-Ital.svg#Didot-HTF-B06-Bold-Ital') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Didot';
+    src: url('Didot-HTF-L11-Light.eot');
+    src: url('Didot-HTF-L11-Light.eot?#iefix') format('embedded-opentype'),
+        url('Didot-HTF-L11-Light.woff2') format('woff2'),
+        url('Didot-HTF-L11-Light.woff') format('woff'),
+        url('Didot-HTF-L11-Light.ttf') format('truetype'),
+        url('Didot-HTF-L11-Light.svg#Didot-HTF-L11-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Didot';
+    src: url('Didot-HTF-L64-Light.eot');
+    src: url('Didot-HTF-L64-Light.eot?#iefix') format('embedded-opentype'),
+        url('Didot-HTF-L64-Light.woff2') format('woff2'),
+        url('Didot-HTF-L64-Light.woff') format('woff'),
+        url('Didot-HTF-L64-Light.ttf') format('truetype'),
+        url('Didot-HTF-L64-Light.svg#Didot-HTF-L64-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Didot';
+    src: url('Didot-HTF-L16-Light.eot');
+    src: url('Didot-HTF-L16-Light.eot?#iefix') format('embedded-opentype'),
+        url('Didot-HTF-L16-Light.woff2') format('woff2'),
+        url('Didot-HTF-L16-Light.woff') format('woff'),
+        url('Didot-HTF-L16-Light.ttf') format('truetype'),
+        url('Didot-HTF-L16-Light.svg#Didot-HTF-L16-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Didot';
+    src: url('Didot-HTF-L24-Light.eot');
+    src: url('Didot-HTF-L24-Light.eot?#iefix') format('embedded-opentype'),
+        url('Didot-HTF-L24-Light.woff2') format('woff2'),
+        url('Didot-HTF-L24-Light.woff') format('woff'),
+        url('Didot-HTF-L24-Light.ttf') format('truetype'),
+        url('Didot-HTF-L24-Light.svg#Didot-HTF-L24-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Didot';
+    src: url('Didot-HTF-L96-Light.eot');
+    src: url('Didot-HTF-L96-Light.eot?#iefix') format('embedded-opentype'),
+        url('Didot-HTF-L96-Light.woff2') format('woff2'),
+        url('Didot-HTF-L96-Light.woff') format('woff'),
+        url('Didot-HTF-L96-Light.ttf') format('truetype'),
+        url('Didot-HTF-L96-Light.svg#Didot-HTF-L96-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Didot';
+    src: url('Didot-HTF-M11-Medium-Ital.eot');
+    src: url('Didot-HTF-M11-Medium-Ital.eot?#iefix') format('embedded-opentype'),
+        url('Didot-HTF-M11-Medium-Ital.woff2') format('woff2'),
+        url('Didot-HTF-M11-Medium-Ital.woff') format('woff'),
+        url('Didot-HTF-M11-Medium-Ital.ttf') format('truetype'),
+        url('Didot-HTF-M11-Medium-Ital.svg#Didot-HTF-M11-Medium-Ital') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Didot';
+    src: url('Didot-HTF-L64-Light-Ital.eot');
+    src: url('Didot-HTF-L64-Light-Ital.eot?#iefix') format('embedded-opentype'),
+        url('Didot-HTF-L64-Light-Ital.woff2') format('woff2'),
+        url('Didot-HTF-L64-Light-Ital.woff') format('woff'),
+        url('Didot-HTF-L64-Light-Ital.ttf') format('truetype'),
+        url('Didot-HTF-L64-Light-Ital.svg#Didot-HTF-L64-Light-Ital') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Didot';
+    src: url('Didot-HTF-L96-Light-Ital.eot');
+    src: url('Didot-HTF-L96-Light-Ital.eot?#iefix') format('embedded-opentype'),
+        url('Didot-HTF-L96-Light-Ital.woff2') format('woff2'),
+        url('Didot-HTF-L96-Light-Ital.woff') format('woff'),
+        url('Didot-HTF-L96-Light-Ital.ttf') format('truetype'),
+        url('Didot-HTF-L96-Light-Ital.svg#Didot-HTF-L96-Light-Ital') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Didot';
+    src: url('Didot-HTF-L42-Light-Ital.eot');
+    src: url('Didot-HTF-L42-Light-Ital.eot?#iefix') format('embedded-opentype'),
+        url('Didot-HTF-L42-Light-Ital.woff2') format('woff2'),
+        url('Didot-HTF-L42-Light-Ital.woff') format('woff'),
+        url('Didot-HTF-L42-Light-Ital.ttf') format('truetype'),
+        url('Didot-HTF-L42-Light-Ital.svg#Didot-HTF-L42-Light-Ital') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Didot';
+    src: url('Didot-HTF-M06-Medium-Ital.eot');
+    src: url('Didot-HTF-M06-Medium-Ital.eot?#iefix') format('embedded-opentype'),
+        url('Didot-HTF-M06-Medium-Ital.woff2') format('woff2'),
+        url('Didot-HTF-M06-Medium-Ital.woff') format('woff'),
+        url('Didot-HTF-M06-Medium-Ital.ttf') format('truetype'),
+        url('Didot-HTF-M06-Medium-Ital.svg#Didot-HTF-M06-Medium-Ital') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Didot';
+    src: url('Didot-HTF-B42-Bold.eot');
+    src: url('Didot-HTF-B42-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Didot-HTF-B42-Bold.woff2') format('woff2'),
+        url('Didot-HTF-B42-Bold.woff') format('woff'),
+        url('Didot-HTF-B42-Bold.ttf') format('truetype'),
+        url('Didot-HTF-B42-Bold.svg#Didot-HTF-B42-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Didot';
+    src: url('Didot-HTF-L11-Light-Ital.eot');
+    src: url('Didot-HTF-L11-Light-Ital.eot?#iefix') format('embedded-opentype'),
+        url('Didot-HTF-L11-Light-Ital.woff2') format('woff2'),
+        url('Didot-HTF-L11-Light-Ital.woff') format('woff'),
+        url('Didot-HTF-L11-Light-Ital.ttf') format('truetype'),
+        url('Didot-HTF-L11-Light-Ital.svg#Didot-HTF-L11-Light-Ital') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Didot';
+    src: url('Didot-HTF-L16-Light-Ital.eot');
+    src: url('Didot-HTF-L16-Light-Ital.eot?#iefix') format('embedded-opentype'),
+        url('Didot-HTF-L16-Light-Ital.woff2') format('woff2'),
+        url('Didot-HTF-L16-Light-Ital.woff') format('woff'),
+        url('Didot-HTF-L16-Light-Ital.ttf') format('truetype'),
+        url('Didot-HTF-L16-Light-Ital.svg#Didot-HTF-L16-Light-Ital') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Didot';
+    src: url('Didot-HTF-L06-Light-Ital.eot');
+    src: url('Didot-HTF-L06-Light-Ital.eot?#iefix') format('embedded-opentype'),
+        url('Didot-HTF-L06-Light-Ital.woff2') format('woff2'),
+        url('Didot-HTF-L06-Light-Ital.woff') format('woff'),
+        url('Didot-HTF-L06-Light-Ital.ttf') format('truetype'),
+        url('Didot-HTF-L06-Light-Ital.svg#Didot-HTF-L06-Light-Ital') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Didot';
+    src: url('Didot-HTF-L06-Light.eot');
+    src: url('Didot-HTF-L06-Light.eot?#iefix') format('embedded-opentype'),
+        url('Didot-HTF-L06-Light.woff2') format('woff2'),
+        url('Didot-HTF-L06-Light.woff') format('woff'),
+        url('Didot-HTF-L06-Light.ttf') format('truetype'),
+        url('Didot-HTF-L06-Light.svg#Didot-HTF-L06-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Didot';
+    src: url('Didot-HTF-B64-Bold-Ital.eot');
+    src: url('Didot-HTF-B64-Bold-Ital.eot?#iefix') format('embedded-opentype'),
+        url('Didot-HTF-B64-Bold-Ital.woff2') format('woff2'),
+        url('Didot-HTF-B64-Bold-Ital.woff') format('woff'),
+        url('Didot-HTF-B64-Bold-Ital.ttf') format('truetype'),
+        url('Didot-HTF-B64-Bold-Ital.svg#Didot-HTF-B64-Bold-Ital') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Didot';
+    src: url('Didot-HTF-L42-Light.eot');
+    src: url('Didot-HTF-L42-Light.eot?#iefix') format('embedded-opentype'),
+        url('Didot-HTF-L42-Light.woff2') format('woff2'),
+        url('Didot-HTF-L42-Light.woff') format('woff'),
+        url('Didot-HTF-L42-Light.ttf') format('truetype'),
+        url('Didot-HTF-L42-Light.svg#Didot-HTF-L42-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Didot';
+    src: url('Didot-HTF-M06-Medium.eot');
+    src: url('Didot-HTF-M06-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Didot-HTF-M06-Medium.woff2') format('woff2'),
+        url('Didot-HTF-M06-Medium.woff') format('woff'),
+        url('Didot-HTF-M06-Medium.ttf') format('truetype'),
+        url('Didot-HTF-M06-Medium.svg#Didot-HTF-M06-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Didot';
+    src: url('Didot-HTF-B96-Bold.eot');
+    src: url('Didot-HTF-B96-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Didot-HTF-B96-Bold.woff2') format('woff2'),
+        url('Didot-HTF-B96-Bold.woff') format('woff'),
+        url('Didot-HTF-B96-Bold.ttf') format('truetype'),
+        url('Didot-HTF-B96-Bold.svg#Didot-HTF-B96-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Didot';
+    src: url('Didot-HTF-B96-Bold-Ital.eot');
+    src: url('Didot-HTF-B96-Bold-Ital.eot?#iefix') format('embedded-opentype'),
+        url('Didot-HTF-B96-Bold-Ital.woff2') format('woff2'),
+        url('Didot-HTF-B96-Bold-Ital.woff') format('woff'),
+        url('Didot-HTF-B96-Bold-Ital.ttf') format('truetype'),
+        url('Didot-HTF-B96-Bold-Ital.svg#Didot-HTF-B96-Bold-Ital') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Didot';
+    src: url('Didot-HTF-B64-Bold.eot');
+    src: url('Didot-HTF-B64-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Didot-HTF-B64-Bold.woff2') format('woff2'),
+        url('Didot-HTF-B64-Bold.woff') format('woff'),
+        url('Didot-HTF-B64-Bold.ttf') format('truetype'),
+        url('Didot-HTF-B64-Bold.svg#Didot-HTF-B64-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

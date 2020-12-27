@@ -1,0 +1,115 @@
+/* face section */
+@media(max-width:1170px) {
+    .face {
+        flex-direction: column;
+    }
+    @keyframes moving-box  {
+        0% {left: -200px; opacity: 0%;}
+        100% {left: 50%; opacity: 100%;}
+      }
+
+      .box1 {
+        animation: moving-box 5s  cubic-bezier(0,0,1,1);
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+    
+    }
+    
+    .box2 {
+        animation: moving-box 5s  cubic-bezier(0.25,0.1,0.25,1) ;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+    
+    
+    }
+    
+    
+    .box3 {
+        animation: moving-box 5s  cubic-bezier(0.42,0,1,1);
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+    
+    }
+    
+    
+    
+    .box4 {
+        animation: moving-box 5s  cubic-bezier(0,0,0.58,1);
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+    }
+    
+    
+    
+    .box5 {
+        animation: moving-box 5s cubic-bezier(0.42,0,0.58,1);
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+    }  
+    .right-news {
+        max-width: 1300px;
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+/* news-section */
+
+@media(max-width:1400px) {
+    .news-box {
+        margin-left: 3px;
+        margin-top: 30px;
+    }
+}
+
+@media(max-width:900px) {
+    .news-wrapper {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .news-box {
+        max-width: 600px;
+        width: 100%;
+    }
+}
+
+
+
+/* video */
+
+@media (max-width: 650px) {
+ .video-section h2 {
+     line-height: 30px;
+ }
+}
+
+@media (max-width: 900px) {
+    
+    .video {
+        height: 315px;
+    }
+   } 
+
+   @media (max-width: 750px) {
+    .video {
+        height: 215px;
+    }
+    
+   }  
+   /* footer  */
+   @media (max-width:750px) {
+       .contact {
+           flex-direction: column;
+            align-items: center;      
+         }
+       .contact-li {
+           margin-top: 30px;
+       }
+       
+   }

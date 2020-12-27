@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="217" height="46" viewBox="0 0 217 46">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 66.667px;
+      }
+
+      .cls-1, .cls-2 {
+        font-family: Baskerville;
+      }
+
+      .cls-2 {
+        font-size: 50px;
+      }
+    </style>
+  </defs>
+  <image id="Background" width="217" height="46" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAANkAAAAuCAYAAAClKbzXAAAAnElEQVR4nO3TQQ3AQBDEsG35c55DkZ8NIVK+bTsg80sLLZNBzGQQMxnETAYxk0HMZBAzGcRMBjGTQcxkEDMZxEwGMZNBzGQQMxnETAYxk0HMZBAzGcRMBjGTQcxkEDMZxEwGMZNBzGQQMxnETAYxk0HMZBAzGcRMBjGTQcxkEDMZxEwGMZNBzGQQMxnETAYxk0HMZBAzGcRMBqW7e+6CBFgkV4vbAAAAAElFTkSuQmCC"/>
+  <text id="ZEENA" class="cls-1" x="-2.482" y="45.062">ZEENA</text>
+  <text id="Lorem_Ipsum" data-name="Lorem Ipsum" class="cls-1" x="-538.344" y="-465.419">Lorem Ipsum</text>
+  <text id="Lorem_Ipsum-2" data-name="Lorem Ipsum" class="cls-2" x="1110.456" y="269.526">Lorem Ipsum</text>
+</svg>
