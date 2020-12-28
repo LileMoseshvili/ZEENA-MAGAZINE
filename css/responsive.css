@@ -64,6 +64,21 @@
     }
 
 }
+
+@media(max-width:450px) {
+    .title h2 {
+        font-size: 11px;
+    }
+    .title p {
+        font-size: 17px;
+    }
+    .wrapper {
+        margin-top: 10px;
+    }
+
+}
+
+
 /* news-section */
 
 @media(max-width:1400px) {

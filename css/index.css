@@ -151,8 +151,8 @@ transform: scale (2);
     margin-bottom: 30px;
 }
 .wrapper {
-    align-items: center;
-}
+align-items: flex-end;}
+
 .right-news {
     margin-left: 150px;
     max-width: 500px;
@@ -180,6 +180,7 @@ transform: scale (2);
 .title {
     max-width: 400px;
     width: 100%;
+    
 }
 .title h2 {
     text-transform: uppercase;
