@@ -123,6 +123,19 @@
     }
     
    }  
+
+   /* form */
+   @media (max-width: 433px) {
+    .fa-envelope {
+        margin-bottom: 10px;
+    }
+   }
+   @media (max-width: 500px) {
+       .send {
+           margin-top: 15px;
+       }
+   }
+
    /* footer  */
 
    @media (max-width:750px) {
