@@ -23,9 +23,45 @@
             <a href="index.html">
                 <img class="logo" src="image/Untitled-1.svg" alt="logo">
             </a>
+
+
+
             <div class="burger-bar">
-                <i class="fas fa-bars"></i>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fas fa-bars"></i>
+                  </a>
             </div>
+
+            <div class="menu" id="myLinks">
+                <ul>
+                    <li>
+                        <a href="#">home</a>
+                    </li>
+                    <li>
+                        <a href="#">culture</a>
+                    </li>
+                    <li>
+                        <a href="#">music</a>
+                    </li>
+                    <li>
+                        <a href="#">fashion</a>
+                    </li>
+                    <li>
+                        <a href="#">film & tv</a>
+                    </li>
+                    <li>
+                        <a href="#">photography</a>
+                    </li>
+                    <li>
+                        <a href="#">politics</a>
+                    </li>
+                    <li></li>
+                </ul>
+                
+              </div>
+
+
+            
 
 
 
@@ -111,7 +147,7 @@
                 <div class="title">
 
                     <h2>music</h2>
-                    <p>Read FKA twigs's first interview in nearly three years</p>
+                    <p>Read FKA twigs's first interview in nearly two years</p>
                 </div>
             </div>
 
@@ -357,6 +393,15 @@
         document.getElementById('subs').style.display = 'none'
     })
 
+
+    function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
 
 
 </script>

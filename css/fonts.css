@@ -90,13 +90,13 @@
 }
 
 @font-face {
-    font-family: 'Playfair Display';
-    src: url('PlayfairDisplay-Regular.eot');
-    src: url('PlayfairDisplay-Regular.eot?#iefix') format('embedded-opentype'),
-        url('PlayfairDisplay-Regular.woff2') format('woff2'),
-        url('PlayfairDisplay-Regular.woff') format('woff'),
-        url('PlayfairDisplay-Regular.ttf') format('truetype'),
-        url('PlayfairDisplay-Regular.svg#PlayfairDisplay-Regular') format('svg');
+    font-family: 'Playfair-regular';
+    src: url('../fonts/PLAYFAIER/PlayfairDisplay-Regular.eot');
+    src: url('../fonts/PLAYFAIER/PlayfairDisplay-Regular.eot') format('embedded-opentype'),
+        url('../fonts/PLAYFAIER/PlayfairDisplay-Regular.woff2') format('woff2'),
+        url('../fonts/PLAYFAIER/PlayfairDisplay-Regular.woff') format('woff'),
+        url('../fonts/PLAYFAIER/PlayfairDisplay-Regular.ttf') format('truetype'),
+        url('../fonts/PLAYFAIER/PlayfairDisplay-Regular.svg') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -116,13 +116,13 @@
 }
 
 @font-face {
-    font-family: 'Playfair Display';
-    src: url('PlayfairDisplay-SemiBold.eot');
-    src: url('PlayfairDisplay-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('PlayfairDisplay-SemiBold.woff2') format('woff2'),
-        url('PlayfairDisplay-SemiBold.woff') format('woff'),
-        url('PlayfairDisplay-SemiBold.ttf') format('truetype'),
-        url('PlayfairDisplay-SemiBold.svg#PlayfairDisplay-SemiBold') format('svg');
+    font-family: 'Playfair-semibold';
+    src: url('../fonts/PLAYFAIER/PlayfairDisplay-SemiBold.eot');
+    src: url('../fonts/PLAYFAIER/PlayfairDisplay-SemiBold.eot') format('embedded-opentype'),
+        url('../fonts/PLAYFAIER/PlayfairDisplay-SemiBold.woff2') format('woff2'),
+        url('../fonts/PLAYFAIER/PlayfairDisplay-SemiBold.woff') format('woff'),
+        url('../fonts/PLAYFAIER/PlayfairDisplay-SemiBold.ttf') format('truetype'),
+        url('../fonts/PLAYFAIER/PlayfairDisplay-SemiBold.svg') format('svg');
     font-weight: 600;
     font-style: normal;
     font-display: swap;

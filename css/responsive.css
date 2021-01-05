@@ -97,7 +97,10 @@
         font-size: 11px;
     }
     .title p {
-        font-size: 17px;
+        font-size: 15px;
+    }
+    .title {
+        padding-top: 5px;
     }
     .wrapper {
         margin-top: 10px;
