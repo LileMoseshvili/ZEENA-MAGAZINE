@@ -186,7 +186,25 @@
        .contact-li {
            margin-top: 30px;
        }
+
+       .contact-block {
+           flex-direction: column;
+           align-items: center;
+       }
+       .hours {
+           margin-top: 50px;
+           margin-left: 0px;
+       }
+       .form2-wraper {
+        flex-direction: column;
+        align-items: center;
+
+       }
+    }
        
-   }
+   
+
+   
+
 
    

@@ -77,13 +77,13 @@
 }
 
 @font-face {
-    font-family: 'Playfair Display';
-    src: url('PlayfairDisplay-Medium.eot');
-    src: url('PlayfairDisplay-Medium.eot?#iefix') format('embedded-opentype'),
-        url('PlayfairDisplay-Medium.woff2') format('woff2'),
-        url('PlayfairDisplay-Medium.woff') format('woff'),
-        url('PlayfairDisplay-Medium.ttf') format('truetype'),
-        url('PlayfairDisplay-Medium.svg#PlayfairDisplay-Medium') format('svg');
+    font-family: 'Playfair-medium';
+    src: url('../fonts/PLAYFAIER/PlayfairDisplay-Medium.eot');
+    src: url('../fonts/PLAYFAIER/PlayfairDisplay-Medium.eot') format('embedded-opentype'),
+        url('../fonts/PLAYFAIER/PlayfairDisplay-Medium.woff2') format('woff2'),
+        url('../fonts/PLAYFAIER/PlayfairDisplay-Medium.woff') format('woff'),
+        url('../fonts/PLAYFAIER/PlayfairDisplay-Medium.ttf') format('truetype'),
+        url('../fonts/PLAYFAIER/PlayfairDisplay-Medium.svg') format('svg');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
